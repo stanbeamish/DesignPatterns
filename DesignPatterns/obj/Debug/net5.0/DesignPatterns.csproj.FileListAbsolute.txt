@@ -1,0 +1,16 @@
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.exe
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.deps.json
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.json
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.dev.json
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.dll
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\ref\DesignPatterns.dll
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.pdb
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csprojAssemblyReference.cache
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfoInputs.cache
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfo.cs
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.dll
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\ref\DesignPatterns.dll
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.pdb
+D:\dotNetTuts\Rider\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.genruntimeconfig.cache
