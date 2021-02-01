@@ -5,12 +5,12 @@
         private BankValues() {}
 
         // the only instance of BankValue ever created
-        private static readonly BankValues SingletonBankValue = new BankValues();
+        private static BankValues _singletonBankValue;
         
         // global method to receive the instance
         public static BankValues GetInstance()
         {
-            return SingletonBankValue;
+            return _singletonBankValue ??= new BankValues();
         }
 
         private double _accountInterest = 0.0;
