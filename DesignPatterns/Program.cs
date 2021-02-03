@@ -2,6 +2,7 @@
 using DesignPatterns.Facade;
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.SingletonPattern;
+using DesignPatterns.State;
 using DesignPatterns.StrategyPattern;
 
 namespace DesignPatterns
@@ -33,6 +34,14 @@ namespace DesignPatterns
             Console.WriteLine("----------- Facade ------------");
             var officeTask = new OfficeFacade();
             officeTask.PrintDocument();
+            
+            Console.WriteLine("----------- State ------------");
+            var lumpi = new Doggy();
+            lumpi.Play();
+            lumpi.Anger();
+            lumpi.GiveMeal();
+            lumpi.Stroke();
+            lumpi.LeaveAlone();
         }
     }
 }
