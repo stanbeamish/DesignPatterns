@@ -1,4 +1,5 @@
 ﻿using System;
+using Autofac;
 using DesignPatterns.Facade;
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.SingletonPattern;
@@ -42,6 +43,16 @@ namespace DesignPatterns
             lumpi.GiveMeal();
             lumpi.Stroke();
             lumpi.LeaveAlone();
+
+            Console.WriteLine("----------- DI with Autofac ------------");
+            var container = ContainerConfig.Configure();
+            
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var app = scope.Resolve<IApplication>();
+                app.Run();
+            }
+            
         }
     }
 }

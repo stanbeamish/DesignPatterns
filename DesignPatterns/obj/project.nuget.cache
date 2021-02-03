@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LoQJd+1RvGww/mh+fa9AwlNk/tlL+F9AKAKzFwpjeE8zzDEGrzzbKJy77T0t5dkgWrdE2iBUjdEcol85ku2yLQ==",
+  "dgSpecHash": "l81nl3p11DaSbRGyexD6V6NA/H7v3D5EU4kxqosRhnRfae6HvAXS4wSEAZDKDX3CcsfC1qQ/pjN9GS9NBUccaA==",
   "success": true,
   "projectFilePath": "D:\\dotNetTuts\\Rider\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ovd\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\ovd\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
