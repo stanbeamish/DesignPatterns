@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using Autofac;
 using DesignPatterns.Facade;
 using DesignPatterns.FactoryMethod;
+using DesignPatterns.Repository;
+using DesignPatterns.Repository.Entities;
 using DesignPatterns.SingletonPattern;
 using DesignPatterns.State;
 using DesignPatterns.StrategyPattern;
@@ -53,6 +56,20 @@ namespace DesignPatterns
                 app.Run();
             }
             
+            Console.WriteLine("----------- Repository ------------");
+            ArticleRepository artRepo = new ArticleRepository();
+            List<Article> artList = artRepo.ReadAll();
+            Console.WriteLine($"Found {artList.Count} articles in the List");
+            artRepo.Create(new Article{});
+            var artLatest = artRepo.ReadLatest();
+            Console.WriteLine($"Title: {artLatest.Title}, ID: {artLatest.Id}");
+            artList = artRepo.ReadAll();
+            Console.WriteLine($"Found {artList.Count} articles in the List");
+            artRepo.Update(new Article{});
+            Console.WriteLine($"FOUND: {artRepo.ReadById(1).Title}");
+            artRepo.Delete(new Article{});
+            artList = artRepo.ReadAll();
+            Console.WriteLine($"Found {artList.Count} articles in the List");
         }
     }
 }
